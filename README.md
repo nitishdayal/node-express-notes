@@ -4,11 +4,11 @@
 
 # Initialize node app
 1. Set up NPM so we can install third-party libs and publish to NPM
-  - `npm init -y` (uses defaults) creates a `package.json` file
+    - `npm init -y` (uses defaults) creates a `package.json` file
 1. Create application entry point
-  - `touch index.js` or whatever you called your entry file in your `package.json`
+    - `touch index.js` or whatever you called your entry file in your `package.json`
 1. Run files in terminal
-  - `node index.js`
+    - `node index.js`
   
 # Create and use modules
 1. Export functions/objects/constants via a `module.exports` object:
